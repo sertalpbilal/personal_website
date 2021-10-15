@@ -64,7 +64,7 @@
                     </div>
                     <div class="main-content mt-2">
                         {% for section in content %}
-                        <div class="mt-2 gray-bottom" id="{{ section.title.lower() }}">{{ section.title }}</div>
+                        <div class="mt-2 gray-bottom" id="{{ section.title.lower() }}"><b>{{ section.title }}</b></div>
                             {% for entry in section.entries %}
                             {% if entry.img|length %}
                             <div class="row mt-2">
