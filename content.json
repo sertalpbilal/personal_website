@@ -1,0 +1,142 @@
+{
+    "name": "Sertalp B. Çay",
+    "url": "https://www.sertalpbilal.com/",
+    "email": null,
+    "title": "Operations Research Specialist",
+    "desc": "Hey, my name's Sertalp! I spend most of my time working on optimization problems with an emphasis on modeling and fast prototyping. I'm a strong believer in the benefits of analytics which is why I enjoy applying my experience in the field to building accessible solutions for both users and developers. Most of my work is open source and can be found on my GitHub.\nIf you happen to care about optimization problems, I also maintain a blog that where I occasionally write about my projects and adjacent interests.\nOutside of programming I enjoy biking, cooking, PC & board games, as well as practicing my Japanese.",
+    "links": [
+        {"level": 1, "title": "Social",
+            "children": [
+                {"icon": "fab fa-twitter", "fa": "true", "url": "https://twitter.com/sertalpbilal", "text": "Twitter"},
+                {"icon": "fab fa-github", "fa": "true", "url": "https://github.com/sertalpbilal", "text": "GitHub"},
+                {"icon": "fab fa-linkedin", "fa": "true", "url": "https://linkedin.com/in/sertalp-cay/", "text": "LinkedIn"}
+            ]
+        },
+        {"level": 2, "title": "AlpsCode",
+            "children": [
+                {"icon": "fas fa-pencil-alt", "fa": "true", "url": "https://alpscode.com", "text": "Blog"},
+                {"icon": "fab fa-youtube", "fa": "true", "url": "https://youtube.com/c/alpscode", "text": "YouTube"},
+                {"icon": "fab fa-twitch", "fa": "true", "url": "https://twitch.tv/alpscode", "text": "Twitch"}
+            ]
+        },
+        {"level": 3, "title": "FPL",
+            "children": [
+                {"icon": "fas fa-square-root-alt", "fa": "true", "url": "https://fploptimized.com", "text": "FPLOptimized"}
+            ]
+        }
+    ],
+    "tags": [
+        {"title": "Optimization", "slug": "optimization"},
+        {"title": "Analytics", "slug": "analytics"},
+        {"title": "Web Design", "slug": "web-design"},
+        {"title": "Personal", "slug": "personal"},
+        {"title": "Sports", "slug": "sports"},
+        {"title": "Game Development", "slug": "game-development"},
+        {"title": "Programming", "slug": "programming"},
+        {"title": "Machine Learning", "slug": "machine-learning"}
+    ],
+    "content": [
+        {"title": "Projects", "slug": "projects",
+            "entries": [
+                { "url": "https://youtube.com/playlist?list=PLrIyJJU8_viOags1yudB_wyafRuTNs1Ed", "title": "FPL Optimization Modeling", 
+                    "desc": "I have implemented, improved, and shared an optimization model for Fantasy Premier League (FPL). I regularly publish the building steps in a tutorial series on YouTube, and show how to apply analytics to fantasy sports. I have covered topics like mixed-integer linear optimization, row generation, multi-objective optimization, stochastic optimization, simulation, and sensitivity analysis.",
+                    "place": "YouTube, GitHub",
+                    "dt": "2020-Current",
+                    "img": "opt_modeling.jpg",
+                    "tags": ["optimization", "teaching"]},
+                { "url": "https://fploptimized.com", "title": "FPLOptimized",
+                    "desc": "I have built the first and only open-source website focused on Fantasy Premier League (FPL). The website provides a variety of analytical tools, including descriptive, diagnostic, predictive, and prescriptive analytics. This one-of-a-kind website promotes using optimization and analytics in everyday problems and draws ~200 daily users.", 
+                    "place": "Web App",
+                    "dt": "2020-Current",
+                    "img": "fpl_optimized.jpg",
+                    "tags": ["programming", "sports"]},
+                { "url": "https://alpscode.com/blog/rocket-league-and-sports-analytics/", "title": "Expected Goals (xG) Modeling for Rocket League", 
+                    "desc": "We have developed and open-sourced an expected goals model for the video game <i>Rocket League</i>. The model is the first open-source implementation of the xG model for the game, and can be used to measure player and team performances. We have also built an interface using JavaScript to make analysis even easier for end users.", 
+                    "place": "Blog, GitHub",
+                    "dt": "2021",
+                    "img": "rocket_xg.jpg",
+                    "tags": ["python", "machine-learning"]},
+                { "url": "https://alpscode.com/blog/expected_threat_optimization/", "title": "Optimization for Expected Threat", 
+                    "desc": "Expected Threat (xT) model measures the impact of ball movements in soccer, such as shot, pass, and dribble. I have proposed two optimization models to overcome symmetricity and consistency issues of the xT model. The model can be easily applied as a wrapper after summarizing ball movements, and provides a better accuracy.", 
+                    "place": "Blog, GitHub",
+                    "dt": "2021",
+                    "img": "xt_opt.jpg",
+                    "tags": ["optimization"]},
+                { "url": "https://blogs.sas.com/content/operations/2020/11/09/venue-optimization/",
+                    "title": "Venue Optimization (SAS Institute)", 
+                    "desc": "I have designed and produced a Venue Optimization tool for venue managers to safely admit fans into seated venues under COVID-19 restrictions. The optimization model I developed uses state-of-the-art optimization solvers and modeling tricks involving decomposition and maximal clique generation. The tool has been covered in more than 100+ local news all around the world, covered by WRAL in a video interview, a team member is interviewed by Forbes, and the work has been mentioned in high profile journals. The model is also used by NFL for the Super Bowl in 2021.", 
+                    "place": "Blog",
+                    "dt": "2020-2021",
+                    "img": "venue.png",
+                    "tags": ["sports", "optimization"]},
+                { "url": "https://www.sas.com/seating-optimization/", "title": "Seating Optimization Game (SAS Institute)", 
+                    "desc": "I have designed and developed a JavaScript-based web game for the SAS Forum events in 2020. This single-page web app takes input from players and compare their solutions to optimal solutions using the Venue Optimization tool I have developed.", 
+                    "place": "Web App",
+                    "dt": "2020",
+                    "img": "seating_game.jpg",
+                    "tags": ["sports", "optimization", "game-development", "programming"]},
+                { "url": "https://github.com/sassoftware/sasoptpy",
+                    "title": "sasoptpy: Python modeling interface (SAS Institute)", 
+                    "desc": "I have developed and maintained the Python interface for SAS Optimization solvers, sasoptpy. This Python package is capable of taking optimization models in native Python format and can be used to describe both linear and nonlinear optimization problems, as well as support concrete and abstract modeling. It fully integrates with SAS Optimization API and can be used to solve optimization problems in cloud with familiar syntax for developers.", 
+                    "place": "GitHub", 
+                    "dt": "2018-Current",
+                    "img": "sasoptpy.jpg",
+                    "tags": ["optimization", "python", "programming"]},
+                { "url": "https://blogs.sas.com/content/hiddeninsights/2019/12/03/1-tournament-12-countries-a-logistical-maze/",
+                    "title": "Traveling Euro Fan Problem", 
+                    "desc": "Due to the unique format of Euro 2020, we have used the traveling salesman problem within Euro setting to find a way to visit all 12 stadiums while catching an international game in each. We have used several modes of transportation data and benefitted from the parallelization to quickly generate optimal paths. The source code is shared <a href=\"https://github.com/sertalpbilal/euro2020-optimal-tour\" target=\"_blank\">on GitHub</a>.", 
+                    "place": "Blog, GitHub",
+                    "dt": "2018",
+                    "img": "euro_travel.jpg",
+                    "tags": ["python", "optimization"]},
+                { "url": "https://blogs.sas.com/content/operations/2018/06/13/visiting-all-30-major-league-baseball-stadiums-with-python-and-sas-viya/", "title": "Traveling Baseball Fan Problem (TBFP)", 
+                    "desc": "I have implemented the TBFP in Python and have shown the optimal solution of visiting all Major League Baseball stadiums was possible in 24 days and 3 hours in 2018. I have shared the model and the implementation details <a href=\"https://github.com/sertalpbilal/traveling-baseball-fan-problem\" target=\"_blank\">on GitHub</a>.", 
+                    "place": "Blog, GitHub",
+                    "dt": "2018",
+                    "img": "tbfp.jpg",
+                    "tags": ["python", "optimization"]},
+                { "url": "", "title": "Hyperparameter Optimization for AutoML (SAS Institute)", 
+                    "desc": "I worked with AutoML group at SAS and implemented the Bayesian Optimization tool for Hyperparameter Optimization toolkit within AutoML. The implementation can help Machine Learning users to figure out parameters to maximize the training score on their test sets by suggesting ideal parameters in an iterative search method. 'Bayes' is available under AutoML as an optimization method.", 
+                    "place": "",
+                    "dt": "2018", 
+                    "tags": ["machine-learning", "optimization"]}
+            ]
+        },
+        {"title": "Experience", "slug": "experience",
+            "entries": [
+                { 
+                    "url": "",
+                    "title": "Operations Research Specialist", 
+                    "desc": "I work under Analytics Applications group within Advaned Analytics division at SAS Institute R&D. My responsibilities include developing Python interfaces to SAS Optimization solvers, working with customers to transform their business problems into mathematical models, and providing support to Center of Excellence Optimization group for their consulting engagements.", 
+                    "place": "SAS Institute",
+                    "dt": "2018-Current",
+                    "tags": []
+                },
+                { 
+                    "url": "",
+                    "title": "Teaching/Research Assistant", 
+                    "desc": "I have worked as a teaching and research assistant during my PhD at Lehigh Industrial and Systems Engineering department, for both Engineering and Management schools.", 
+                    "place": "Lehigh University",
+                    "dt": "2012-2018",
+                    "tags": []
+                }
+            ]
+        },
+        {"title": "Education", "slug": "education",
+            "entries": [
+                { "url": "https://www.proquest.com/openview/f158533485d9e888affa4f68dad1cef8/", "title": "PhD in Industrial Engineering", 
+                    "desc": "<b>Dissertation</b>: Exploiting Structures in Mixed-Integer Second-Order Cone Optimization Problems for Branch-and-Conic-Cut Algorithms", 
+                    "place": "Lehigh University", "dt": "2012-2018", 
+                    "tags": []},
+                { "url": "", "title": "MS in Industrial Engineering", 
+                    "desc": "<b>Thesis</b>: Final Phase Inventory Management of Spare Parts under Nonhomogeneous Poisson Demand Rate", 
+                    "place": "Bilkent University", "dt": "2010-2012", 
+                    "tags": []},
+                { "url": "", "title": "BS in Industrial Engineering", 
+                    "desc": "", 
+                    "place": "Bilkent University", "dt": "2005-2010", 
+                    "tags": []}
+            ]
+        }
+    ]
+}
