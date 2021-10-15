@@ -16,13 +16,13 @@
     <meta property="og:description" content="A personal webpage describing my work and research history.">
     <meta property="og:image" content="image.png">
 
-    <link rel="icon" href="{{ url_for('static', filename='favicon.ico')}}">
-    <link rel="icon" href="{{ url_for('static', filename='favicon.svg')}}" type="image/svg+xml">
+    <link rel="icon" href=".{{ url_for('static', filename='favicon.ico')}}">
+    <link rel="icon" href=".{{ url_for('static', filename='favicon.svg')}}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.css') }}" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}?v=1.0">
+    <link rel="stylesheet" href=".{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href=".{{ url_for('static', filename='css/fontawesome.css') }}" >
+    <link rel="stylesheet" href=".{{ url_for('static', filename='css/styles.css') }}?v=1.0">
 
 </head>
 
@@ -95,7 +95,7 @@
                                 {% if entry.url|length %}
                                 <a href="{{ entry.url }}" target="_blank">
                                 {% endif %}
-                                <img src="{{ url_for('static', filename='img/' + entry.img) }}" class="mini-img w-100" />
+                                <img src=".{{ url_for('static', filename='img/' + entry.img) }}" class="mini-img w-100" />
                                 {% if entry.url|length %}
                                 </a>
                                 {% endif %}
