@@ -32,6 +32,8 @@ jobs:
         run: |
           cd build
           ls -la
+          git status
+          git checkout webpage
           git add -u
           git add .
           git config user.name "Github Action"
