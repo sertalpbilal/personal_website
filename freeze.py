@@ -5,7 +5,7 @@ from app import app
 import shutil
 
 def freeze_all():
-    shutil.rmtree("build", ignore_errors=True, onerror=None)
+    # shutil.rmtree("build", ignore_errors=True, onerror=None)
     freezer = Freezer(app, with_static_files=True)
     freezer.freeze()
     shutil.copytree(src="static", dst="build/static", dirs_exist_ok=True)
