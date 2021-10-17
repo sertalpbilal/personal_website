@@ -23,8 +23,6 @@ app.jinja_options = jinja_options
 def main_page():
     with open("content.json", encoding='utf-8') as f:
         content = json.load(f)
-    print(content)
-    # return render_template('index.html', **content)
     # return render_template('index_two_column.html', **content)
     return render_template('index_single_parallax.html', **content)
 
