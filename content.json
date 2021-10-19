@@ -138,6 +138,42 @@
                     "place": "Bilkent University", "dt": "2005-2010", 
                     "tags": []}
             ]
+        },
+        {"title": "Research", "slug": "research",
+            "entries": [
+                {
+                    "url": "https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2018/1814-2018.pdf",
+                    "title": "Optimization Modeling with Python and SAS Viya",
+                    "desc": "SAS Global Forum (2018)",
+                    "place": "SAS Institute",
+                    "dt": "",
+                    "tags": []
+                },
+                {
+                    "url": "http://www.optimization-online.org/DB_HTML/2018/01/6428.html",
+                    "title": "The first heuristic specifically for mixed-integer second-order cone optimization",
+                    "desc": "Optimization Online E-Print ID (2018): 01-6428",
+                    "place": "Lehigh University",
+                    "dt": "",
+                    "tags": []
+                },
+                {
+                    "url": "http://www.optimization-online.org/DB_HTML/2017/05/5998.html",
+                    "title": "Warm-start of interior point methods for second order cone optimization via rounding over optimal Jordan frames",
+                    "desc": "Optimization Online E-Print ID (2017): 05-5998",
+                    "place": "Lehigh University",
+                    "dt": "",
+                    "tags": []
+                },
+                {
+                    "url": "https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/_DEPARTMENTS/ise/pdf/tech-papers/18/18T_002.pdf",
+                    "title": "Effects of disjunctive conic cuts within a branch and conic cut algorithm to solve asset allocation problems",
+                    "desc": "Lehigh ISE Technical Report 18T–002 (2018)",
+                    "place": "Lehigh University",
+                    "dt": "",
+                    "tags": []
+                }
+            ]
         }
     ]
 }
