@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="row mt-2 mb-2 flex-grow-1 pb-5 justify-content-center">
-            <div class="col-12 col-md-9 mainbar">
+            <div class="col-12 col-lg-9 mainbar">
                 <div class="d-flex flex-column">
                     <div class="sections d-flex flex-row justify-content-center flex-wrap">
                         {% for section in content %}
@@ -77,12 +77,12 @@
                             {% for entry in section.entries %}
                             {% if entry.img|length %}
                             <div class="row mt-2">
-                            <div class="col-12 col-md-9 row no-gutters mb-1">
+                            <div class="col-12 col-lg-9 row no-gutters mb-1">
                             {% endif %}
                                 <div class="entry">
                                     <div class="row">
                                         
-                                        <div class="col-12 col-md-9">
+                                        <div class="col-12 col-lg-9">
                                             <span>{{ entry.title }}</span>
                                             {% if entry.url|length %}
                                             <span class="ml-1">
@@ -90,7 +90,7 @@
                                             </span>
                                             {% endif %}
                                         </div>
-                                        <div class="col-12 col-md-3 text-md-right entry-place">
+                                        <div class="col-12 col-lg-3 text-lg-right entry-place">
                                             {{ entry.place }}
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@
                                 </div>
                             {% if entry.img|length %}
                             </div>
-                            <div class="col-12 col-md-3 text-center">
+                            <div class="col-12 col-lg-3 text-center">
                                 {% if entry.url|length %}
                                 <a href="{{ entry.url }}" target="_blank">
                                 {% endif %}
