@@ -53,7 +53,10 @@
                         {% for level in links %}
                         {% for link in level.children %}
                             <li>
-                                <a href="{{ link.url }}" class="col link-box-a" target="_blank"><i class="{{ link.icon }} mr-3"></i>{{ link.text }}</a>
+                                <a href="{{ link.url }}" class="link-box-a w-100" target="_blank">
+                                    <span class="link-icon mx-auto"><i class="{{ link.icon }} mr-3 d-table-cell"></i></span>
+                                    <span class="">{{ link.text }}</span>
+                                </a>
                             </li>
                         {% endfor %}
                         {% endfor %}

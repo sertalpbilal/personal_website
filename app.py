@@ -7,7 +7,8 @@ app = Flask(__name__)
 app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.static_folder = 'static'
-app.config['DEBUG']=False
+app.config['DEBUG']=True
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 jinja_options = app.jinja_options.copy()
 jinja_options.update(dict(
     # block_start_string='"%',
@@ -18,6 +19,7 @@ jinja_options.update(dict(
     comment_end_string='#>',
 ))
 app.jinja_options = jinja_options
+app.jinja_env.auto_reload = True
 
 @app.route('/')
 def main_page():
@@ -37,4 +39,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 9001))
     debug = os.environ.get("DEBUG", True)
     print(f"Starting app at port {port}")
-    app.run(host='0.0.0.0', port=port, debug=debug)
+    app.run(host='0.0.0.0', port=port, debug=debug, extra_files=['templates/*', 'static/*'])

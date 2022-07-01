@@ -17,7 +17,7 @@
             "children": [
                 {"icon": "fas fa-pencil-alt", "fa": "true", "url": "https://alpscode.com", "text": "Blog"},
                 {"icon": "fab fa-youtube", "fa": "true", "url": "https://youtube.com/c/alpscode", "text": "YouTube"},
-                {"icon": "fab fa-twitch", "fa": "true", "url": "https://twitch.tv/alpscode", "text": "Twitch"}
+                {"icon": "fas fa-microphone-alt", "fa": "true", "url": "https://fploptimized.transistor.fm/", "text": "Podcast"}
             ]
         },
         {"level": 3, "title": "FPL",
