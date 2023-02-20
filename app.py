@@ -8,7 +8,7 @@ app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.static_folder = 'static'
 app.config['DEBUG']=True
-app.config["TEMPLATES_AUTO_RELOAD"] = True
+# app.config["TEMPLATES_AUTO_RELOAD"] = True
 jinja_options = app.jinja_options.copy()
 jinja_options.update(dict(
     # block_start_string='"%',

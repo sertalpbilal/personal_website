@@ -7,8 +7,9 @@
     "desc": "Hey, my name's Sertalp! I spend most of my time working on optimization problems with an emphasis on modeling and fast prototyping. I'm a strong believer in the benefits of analytics which is why I enjoy applying my experience in the field to building accessible solutions for both users and developers. Most of my work is open source and can be found on my GitHub.\nIf you happen to care about optimization problems, I also maintain a blog that where I occasionally write about my projects and adjacent interests.\nOutside of programming I enjoy biking, cooking, PC & board games, as well as practicing my Japanese.",
     "links": [
         {"level": 1, "title": "Social",
-            "children": [
+            "children": [   
                 {"icon": "fab fa-twitter", "fa": "true", "url": "https://twitter.com/sertalpbilal", "text": "Twitter"},
+                {"icon": "fab fa-mastodon", "fa": "true", "url": "https://mstdn.social/@sertalpbilal", "text": "Mastodon", "rel": "me"},
                 {"icon": "fab fa-github", "fa": "true", "url": "https://github.com/sertalpbilal", "text": "GitHub"},
                 {"icon": "fab fa-linkedin", "fa": "true", "url": "https://linkedin.com/in/sertalp-cay/", "text": "LinkedIn"}
             ]
