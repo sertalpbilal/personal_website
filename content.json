@@ -40,6 +40,18 @@
     "content": [
         {"title": "Projects", "slug": "projects",
             "entries": [
+                { "url": "https://twitter.com/sertalpbilal/status/1909660537161474211", "title": "Quantum Optimization", 
+                    "desc": "At SAS, I have been a part of the quantum research group since its inception around 2022. I was the lead developer for implementing some test cases and proof-of-concepts to show benefits of using quantum optimization for particular problems. I was also part of the delivery team for applying a hybrid of quantum and classical optimization solvers to a well-known Consumer Packaged Goods (CPG) company and solve a real-world business problem efficiently.",
+                    "place": "YouTube (soon)",
+                    "dt": "2022-Current",
+                    "img": "qubits.jpg",
+                    "tags": ["optimization", "quantum", "business", "consulting"]},
+                { "url": "https://solioanalytics.com/", "title": "Solio Analytics", 
+                    "desc": "I am one of the co-founder of Solio Analytics, a new company aim to bring data and analytics to fantasy sports, starting with Fantasy Premier League. Our set of tools will start in 2025.",
+                    "place": "",
+                    "dt": "2025-Current",
+                    "img": "solio.jpg",
+                    "tags": ["optimization", "fantasy sports", "sports"]},
                 { "url": "https://youtube.com/playlist?list=PLrIyJJU8_viOags1yudB_wyafRuTNs1Ed", "title": "FPL Optimization Modeling", 
                     "desc": "I have implemented, improved, and shared an optimization model for Fantasy Premier League (FPL). I regularly publish the building steps in a tutorial series on YouTube, and show how to apply analytics to fantasy sports. I have covered topics like mixed-integer linear optimization, row generation, multi-objective optimization, stochastic optimization, simulation, and sensitivity analysis.<br/>◹ <a target=\"blank\" href=\"http://www.alwayscheating.com/podcast/2022/1/24/ep-313-fpl-data-analytics-a-conversation-with-sertalp-b-ay\">Always Cheating podcast interview</a>",
                     "place": "YouTube, GitHub",
